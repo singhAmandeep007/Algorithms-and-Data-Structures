@@ -50,13 +50,6 @@
 // }
 
 // Solution 3 
-// const pyramid = (n, poundCount = 1) => {
-//     if (n <= 0) return;
-//     console.log(" ".repeat(n - 1) + "#".repeat(poundCount) + " ".repeat(n - 1));
-//     pyramid(n - 1, poundCount + 2);
-// };
-
-// Solution 4 
 // function pyramid(n) {
 //     for (let i = 1; i <= n; i++) {
 //         console.log(" ".repeat(n - i) + "#".repeat(i) + "#".repeat(i - 1) + " ".repeat(n - i));
