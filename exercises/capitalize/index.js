@@ -8,12 +8,12 @@
 //   capitalize('look, it is working!') --> 'Look, It Is Working!'
 
 // 1st solution
-function capitalize(str) {
+// function capitalize(str) {
 
-    return str.split(' ').map((word) => {
-        return word[0].toUpperCase() + word.slice(1);
-    }).join(' ')
-}
+//     return str.split(' ').map((word) => {
+//         return word[0].toUpperCase() + word.slice(1);
+//     }).join(' ')
+// }
 
 /*
     Here we first covert string to array of words then map over each word. Each word's first character is uppercased and concatenated with rest of the characters of word. 
