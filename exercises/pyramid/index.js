@@ -50,9 +50,9 @@
 // }
 
 // Solution 3 
-// function pyramid(n) {
-//     for (let i = 1; i <= n; i++) {
-//         console.log(" ".repeat(n - i) + "#".repeat(i) + "#".repeat(i - 1) + " ".repeat(n - i));
-//     }
-// }
+function pyramid(n) {
+    for (let i = 1; i <= n; i++) {
+        console.log(" ".repeat(n - i) + "#".repeat(i) + "#".repeat(i - 1) + " ".repeat(n - i));
+    }
+}
 module.exports = pyramid;
