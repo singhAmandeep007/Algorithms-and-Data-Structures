@@ -1,0 +1,19 @@
+{
+  "name": "algorithms-and-data-structures",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/amandeepmicro/Algorithms-and-Data-Structures/"
+  },
+  "description": "Algorithms and data structures implemented in javascript with explanations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "author": "Amandeep Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
