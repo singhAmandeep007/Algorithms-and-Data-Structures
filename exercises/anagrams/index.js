@@ -58,7 +58,8 @@ function anagrams2(stringA, stringB) {
 /*
     Here first we clean both string by calling cleaner function on them. It replaces all non-word and spaces , then lowercases every character then converts to array then uses native js sort method and convert back to string.
     Finally we compare both strings and return boolean value.
- 
+	
+	 NOTE: sort can be done on alphabets.
 */
 
 module.exports = [anagrams1, anagrams2];
