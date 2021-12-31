@@ -42,8 +42,9 @@ Testing is done using Jest.
 |   7 | [Anagrams](/exercises/anagrams)                  | Easy       |        |
 |   8 | [Sentence Capitalization](/exercises/capitalize) | Easy       |        |
 |   9 | [Printing Steps](/exercises/steps)               | Easy       |        |
-|  10 | [Two-Sided Steps- Pyramids](/exercises/pyramid)  | Easy       |        |
+|  10 | [Two-Sided Steps- Pyramids](/exercises/pyramid)  | Medium     |        |
 |  11 | [Find The Vowels](/exercises/vowels)             | Easy       |        |
-|  12 | [Matrix Spiral](/exercises/matrix)               | Easy       |        |
+|  12 | [Matrix Spiral](/exercises/matrix)               | Medium     |        |
+|  13 | [Events](/exercises/events)                      | Easy       |        |
 
 </details>
