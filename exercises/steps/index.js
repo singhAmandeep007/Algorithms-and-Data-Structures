@@ -1,38 +1,36 @@
-// --- Directions
-// Write a function that accepts a positive number N.
-// The function should console log a step shape
-// with N levels using the # character.  Make sure the
-// step has spaces on the right hand side!
-// --- Examples
-//   steps(2)
-//       '# '
-//       '##'
-//   steps(3)
-//       '#  '
-//       '## '
-//       '###'
-//   steps(4)
-//       '#   '
-//       '##  '
-//       '### '
-//       '####'
+/* --- Directions
+Write a function that accepts a positive number N.
+The function should console log a step shape
+with N levels using the # character.  Make sure the
+step has spaces on the right hand side!
+--- Examples
+  steps(2)
+      '# '
+      '##'
+  steps(3)
+      '#  '
+      '## '
+      '###'
+  steps(4)
+      '#   '
+      '##  '
+      '### '
+      '####' */
 
-
-
-// Solution 1
-// function steps(n) {
-//     for (let r = 0; r < n; r++) {
-//         let str = String();
-//         for (let c = 0; c < n; c++) {
-//             if (r < c) {
-//                 str += ' ';
-//             } else {
-//                 str += '#';
-//             }
-//         }
-//         console.log(str);
-//     }
-// }
+// Solution 1 O(n^2)
+function steps1(n) {
+  for (let r = 0; r < n; r++) {
+    let str = String();
+    for (let c = 0; c < n; c++) {
+      if (r < c) {
+        str += ' ';
+      } else {
+        str += '#';
+      }
+    }
+    console.log(str);
+  }
+}
 /*
     Solving it through matrix representation . 
         iterate through rows from 0 to n. Create empty string 'str'. iterate through columns from 0 to n. 
@@ -52,11 +50,15 @@
 
 */
 // Solution 2
-// function steps(n) {
-//     for (let i = 1; i <= n; i++) {
-//         console.log("#".repeat(i) + " ".repeat(n - i));
-//     }
-// }
+function steps2(n) {
+  if (n === 1) {
+    console.log('#');
+  } else {
+    for (let i = 1; i <= n; i++) {
+      console.log('#'.repeat(i) + ' '.repeat(n - i));
+    }
+  }
+}
 /*
     Solving it by using repeat method . 
         Iterate from 1 to n (including n) to avoid n=0 or n=1 case.
@@ -64,20 +66,20 @@
 */
 
 // Solution 3
-function steps(n, row = 0, stair = '') {
-    if (n === row) {
-        return;
-    }
-    if (n === stair.length) {
-        console.log(stair)
-        return steps(n, row + 1)
-    }
-    if (stair.length <= row) {
-        stair += '#';
-    } else {
-        stair += " ";
-    }
-    steps(n, row, stair);
+function steps3(n, row = 0, stair = '') {
+  if (n === row) {
+    return;
+  }
+  if (n === stair.length) {
+    console.log(stair);
+    return steps3(n, row + 1);
+  }
+  if (stair.length <= row) {
+    stair += '#';
+  } else {
+    stair += ' ';
+  }
+  steps3(n, row, stair);
 }
 /*
     Solving it by using recursion . 
@@ -87,5 +89,15 @@ function steps(n, row = 0, stair = '') {
         
 */
 
+function steps4(n) {
+  for (let i = 1; i <= n; i++) {
+    console.log('#'.repeat(i).padEnd(n));
+  }
+}
 
-module.exports = steps;
+/*
+	Solving it by using padEnd method . 
+	padEnd -> Pads the current string with a given string (possibly repeated) so that the resulting string REACHES a given LENGTH. The padding is applied from the end (RIGHT) of the current string.
+*/
+
+module.exports = [steps1, steps2, steps3, steps4];
