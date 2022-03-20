@@ -10,7 +10,7 @@ used in a string.  Vowels are the characters 'a', 'e'
 // 1st solution O(n^2)
 function vowels1(str) {
   let count = 0;
-  const vowels = ['a', 'e', 'i', 'o', 'u'];
+  const vowels = ["a", "e", "i", "o", "u"];
   for (let s of str) {
     for (let v of vowels) {
       if (s.toLowerCase() === v) {
@@ -24,7 +24,7 @@ function vowels1(str) {
 // 2nd solution O(n)
 function vowels2(str) {
   let count = 0;
-  const vowels = ['a', 'e', 'i', 'o', 'u'];
+  const vowels = ["a", "e", "i", "o", "u"];
   for (let char of str.toLowerCase()) {
     vowels.includes(char) ? (count += 1) : (count += 0);
   }
@@ -33,7 +33,7 @@ function vowels2(str) {
 
 // 3rd solution O(n)
 function vowels3(str) {
-  return str.replace(/[^aeiou]/gi, '').length;
+  return str.replace(/[^aeiou]/gi, "").length;
 }
 
 /**
@@ -49,6 +49,7 @@ function vowels4(str) {
   const matches = str.match(/[aeiou]/gi);
   return matches ? matches.length : 0;
 }
+
 /**
  * The match() method retrieves the result of matching a string against a regular expression.
  * returns - An Array whose contents depend on the presence or absence of the global (g) flag, or null if no matches are found.

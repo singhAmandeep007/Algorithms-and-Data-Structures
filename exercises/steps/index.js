@@ -23,9 +23,9 @@ function steps1(n) {
     let str = String();
     for (let c = 0; c < n; c++) {
       if (r < c) {
-        str += ' ';
+        str += " ";
       } else {
-        str += '#';
+        str += "#";
       }
     }
     console.log(str);
@@ -37,11 +37,11 @@ function steps1(n) {
         if current row is less than current column add space to str. Else add "#" .
         finally console.log(str) for each iteration of outer loop.
 
-   c row------>  
-   o  00 01 02
-   l  10 11 12
-   |  20 21 22
-   |
+    c row------>  
+    o  00 01 02
+    l  10 11 12
+    |  20 21 22
+    |
     c row------>
     o  # ' ' ' '
     l  #  #  ' '
@@ -52,10 +52,10 @@ function steps1(n) {
 // Solution 2
 function steps2(n) {
   if (n === 1) {
-    console.log('#');
+    console.log("#");
   } else {
     for (let i = 1; i <= n; i++) {
-      console.log('#'.repeat(i) + ' '.repeat(n - i));
+      console.log("#".repeat(i) + " ".repeat(n - i));
     }
   }
 }
@@ -66,7 +66,7 @@ function steps2(n) {
 */
 
 // Solution 3
-function steps3(n, row = 0, stair = '') {
+function steps3(n, row = 0, stair = "") {
   if (n === row) {
     return;
   }
@@ -75,9 +75,9 @@ function steps3(n, row = 0, stair = '') {
     return steps3(n, row + 1);
   }
   if (stair.length <= row) {
-    stair += '#';
+    stair += "#";
   } else {
-    stair += ' ';
+    stair += " ";
   }
   steps3(n, row, stair);
 }
@@ -91,13 +91,13 @@ function steps3(n, row = 0, stair = '') {
 
 function steps4(n) {
   for (let i = 1; i <= n; i++) {
-    console.log('#'.repeat(i).padEnd(n));
+    console.log("#".repeat(i).padEnd(n));
   }
 }
 
 /*
-	Solving it by using padEnd method . 
-	padEnd -> Pads the current string with a given string (possibly repeated) so that the resulting string REACHES a given LENGTH. The padding is applied from the end (RIGHT) of the current string.
+  Solving it by using padEnd method . 
+  padEnd -> Pads the current string with a given string (possibly repeated) so that the resulting string REACHES a given LENGTH. The padding is applied from the end (RIGHT) of the current string.
 */
 
 module.exports = [steps1, steps2, steps3, steps4];

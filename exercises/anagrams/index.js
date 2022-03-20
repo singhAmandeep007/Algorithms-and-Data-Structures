@@ -13,7 +13,7 @@
 function buildCharMap(str) {
   const charMap = {};
 
-  for (let i of str.replace(/[^\w]/g, '').toLowerCase()) {
+  for (let i of str.replace(/[^\w]/g, "").toLowerCase()) {
     charMap[i] = charMap[i] + 1 || 1;
   }
 
@@ -52,7 +52,7 @@ function anagrams1(stringA, stringB) {
 // 2nd Solution
 function anagrams2(stringA, stringB) {
   const cleaner = (str) =>
-    str.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('');
+    str.replace(/[^\w]/g, "").toLowerCase().split("").sort().join("");
   return cleaner(stringA) === cleaner(stringB);
 }
 /*
