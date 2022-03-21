@@ -67,6 +67,7 @@ function memoize(fn) {
   return function (...arg) {
     if (!cache[arg]) {
       const result = fn.apply(this, arg);
+      // NOTE: Behind the scenes, the args param is being converted to string form in order to be saved as a key.
       cache[arg] = result;
     }
     return cache[arg];
