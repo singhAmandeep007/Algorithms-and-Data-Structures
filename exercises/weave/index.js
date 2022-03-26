@@ -39,4 +39,9 @@ function weave(sourceOne, sourceTwo) {
   return weavedQueue;
 }
 
+/* 
+	we are first creating a new queue which will be returned later. Using the while loop with conditions of if 1st queue doesnt have the last element as undefined or same for the 2nd queue , then we will check for undefined value in both queue and add it in the resultant queue while also removing it from the original queue.  
+
+*/
+
 module.exports = weave;

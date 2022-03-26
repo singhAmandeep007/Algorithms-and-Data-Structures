@@ -9,6 +9,8 @@
      q.remove(); // returns 1;
 */
 
+// NOTE: queue follows first in first out
+
 // 1st solution
 class Queue1 {
   constructor() {
