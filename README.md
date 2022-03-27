@@ -60,8 +60,9 @@ Testing is done using Jest.
 
 ### Problems
 
-| No. | Title                                         | Difficulty | Topics   |
-| --: | :-------------------------------------------- | :--------- | :------- |
-|   1 | [Default Arguments](/2-exercises/defaultArgs) | Medium     | closures |
+| No. | Title                                         | Difficulty | Topics       |
+| --: | :-------------------------------------------- | :--------- | :----------- |
+|   1 | [Default Arguments](/2-exercises/defaultArgs) | Medium     | closures     |
+|   1 | [8 queens](/2-exercises/8queens)              | Medium     | backtracking |
 
 </details>
