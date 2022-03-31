@@ -63,6 +63,7 @@ Testing is done using Jest.
 | No. | Title                                         | Difficulty | Topics       |
 | --: | :-------------------------------------------- | :--------- | :----------- |
 |   1 | [Default Arguments](/2-exercises/defaultArgs) | Medium     | closures     |
-|   1 | [8 queens](/2-exercises/8queens)              | Medium     | backtracking |
+|   2 | [8 queens](/2-exercises/8queens)              | Medium     | backtracking |
+|   3 | [stocks profit](/2-exercises/profitsTarget)   | Medium     | hashing      |
 
 </details>
