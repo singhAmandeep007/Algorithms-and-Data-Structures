@@ -31,26 +31,28 @@ Testing is done using Jest.
 
 ### Problems
 
-| No. | Title                                              | Difficulty | Topics |
-| --: | :------------------------------------------------- | :--------- | :----- |
-|   1 | [Reverse String](/1-exercises/reversestring)       | Easy       |        |
-|   2 | [Palindromes](/1-exercises/palindrome)             | Easy       |        |
-|   3 | [Reverse Integer](/1-exercises/reverseint)         | Easy       |        |
-|   4 | [Max Chars](/1-exercises/maxchar)                  | Easy       |        |
-|   5 | [Classic FizzBuzz](/1-exercises/fizzbuzz)          | Easy       |        |
-|   6 | [Array Chunk](/1-exercises/chunk)                  | Easy       |        |
-|   7 | [Anagrams](/1-exercises/anagrams)                  | Easy       |        |
-|   8 | [Sentence Capitalization](/1-exercises/capitalize) | Easy       |        |
-|   9 | [Printing Steps](/1-exercises/steps)               | Easy       |        |
-|  10 | [Two-Sided Steps- Pyramids](/1-exercises/pyramid)  | Medium     |        |
-|  11 | [Find The Vowels](/1-exercises/vowels)             | Easy       |        |
-|  12 | [Matrix Spiral](/1-exercises/matrix)               | Medium     |        |
-|  13 | [Events](/1-exercises/events)                      | Easy       |        |
-|  13 | [Fibonacci Series](/1-exercises/fib)               | Easy       |        |
-|  13 | [Queue](/1-exercises/queue)                        | Easy       |        |
-|  13 | [Weaving Queue](/1-exercises/weave)                | Easy       |        |
-|  13 | [Stack](/1-exercises/stack)                        | Easy       |        |
-|  13 | [QueueUsingStack](/1-exercises/qfroms)             | Easy       |        |
+| No. | Title                                                        | Difficulty | Topics     |
+| --: | :----------------------------------------------------------- | :--------- | :--------- |
+|   1 | [Reverse String](/1-exercises/reversestring)                 | Easy       |            |
+|   2 | [Palindromes](/1-exercises/palindrome)                       | Easy       |            |
+|   3 | [Reverse Integer](/1-exercises/reverseint)                   | Easy       |            |
+|   4 | [Max Chars](/1-exercises/maxchar)                            | Easy       |            |
+|   5 | [Classic FizzBuzz](/1-exercises/fizzbuzz)                    | Easy       |            |
+|   6 | [Array Chunk](/1-exercises/chunk)                            | Easy       |            |
+|   7 | [Anagrams](/1-exercises/anagrams)                            | Easy       |            |
+|   8 | [Sentence Capitalization](/1-exercises/capitalize)           | Easy       |            |
+|   9 | [Printing Steps](/1-exercises/steps)                         | Easy       |            |
+|  10 | [Two-Sided Steps- Pyramids](/1-exercises/pyramid)            | Medium     |            |
+|  11 | [Find The Vowels](/1-exercises/vowels)                       | Easy       |            |
+|  12 | [Matrix Spiral](/1-exercises/matrix)                         | Medium     |            |
+|  13 | [Events](/1-exercises/events)                                | Easy       |            |
+|  14 | [Fibonacci Series](/1-exercises/fib)                         | Easy       |            |
+|  15 | [Queue](/1-exercises/queue)                                  | Easy       |            |
+|  16 | [Weaving Queue](/1-exercises/weave)                          | Easy       |            |
+|  17 | [Stack](/1-exercises/stack)                                  | Easy       |            |
+|  18 | [Queue Using Stack](/1-exercises/qfroms)                     | Easy       |            |
+|  19 | [Linked List](/1-exercises/linkedlist)                       | Medium     |            |
+|  20 | [Midpoint In Linked List](/1-exercises/midpointInLinkedList) | Easy       | 2 pointers |
 
 </details>
 
