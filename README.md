@@ -55,6 +55,8 @@ Testing is done using Jest.
 |  20 | [Midpoint In Linked List](/1-exercises/midpointInLinkedList)                           | Easy       | 2 pointers |
 |  21 | [Check If Circular Linked List](/1-exercises/circularLinkedList)                       | Easy       | 2 pointers |
 |  22 | [Get Node from N position from Last Node Linked List](/1-exercises/fromLastLinkedList) | Easy       | 2 pointers |
+|  23 | [Building a Tree](/1-exercises/tree)                                                   | Easy       |            |
+|  24 | [Finding the width at each level in a tree](/1-exercises/levelWidth)                   | Medium     |            |
 
 </details>
 
