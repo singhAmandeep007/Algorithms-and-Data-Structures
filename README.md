@@ -57,6 +57,7 @@ Testing is done using Jest.
 |  22 | [Get Node from N position from Last Node Linked List](/1-exercises/fromLastLinkedList) | Easy       | 2 pointers |
 |  23 | [Building a Tree](/1-exercises/tree)                                                   | Easy       |            |
 |  24 | [Finding the width at each level in a tree](/1-exercises/levelWidth)                   | Medium     |            |
+|  25 | [Binary Search tree](/1-exercises/bst)                                                 | Medium     |            |
 
 </details>
 
