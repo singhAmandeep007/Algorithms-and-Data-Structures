@@ -19,58 +19,47 @@ a set of rules that precisely define a sequence of operations.
 
 ## Testing
 
-Testing is done using Jest.
+- Testing is done using Jest.
+- `npm test` to run the tests.
 
 ## Solutions
 
 <details>
-  <summary> Udemy : The Coding Interview Bootcamp: Algorithms + Data Structures
- </summary>
-  
-  ## [Course Link](https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/)
-
-### Problems
-
-| No. | Title                                                                                  | Difficulty | Topics     |
-| --: | :------------------------------------------------------------------------------------- | :--------- | :--------- |
-|   1 | [Reverse String](/1-exercises/reversestring)                                           | Easy       |            |
-|   2 | [Palindromes](/1-exercises/palindrome)                                                 | Easy       |            |
-|   3 | [Reverse Integer](/1-exercises/reverseint)                                             | Easy       |            |
-|   4 | [Max Chars](/1-exercises/maxchar)                                                      | Easy       |            |
-|   5 | [Classic FizzBuzz](/1-exercises/fizzbuzz)                                              | Easy       |            |
-|   6 | [Array Chunk](/1-exercises/chunk)                                                      | Easy       |            |
-|   7 | [Anagrams](/1-exercises/anagrams)                                                      | Easy       |            |
-|   8 | [Sentence Capitalization](/1-exercises/capitalize)                                     | Easy       |            |
-|   9 | [Printing Steps](/1-exercises/steps)                                                   | Easy       |            |
-|  10 | [Two-Sided Steps- Pyramids](/1-exercises/pyramid)                                      | Medium     |            |
-|  11 | [Find The Vowels](/1-exercises/vowels)                                                 | Easy       |            |
-|  12 | [Matrix Spiral](/1-exercises/matrix)                                                   | Medium     |            |
-|  13 | [Events](/1-exercises/events)                                                          | Easy       |            |
-|  14 | [Fibonacci Series](/1-exercises/fib)                                                   | Easy       |            |
-|  15 | [Queue](/1-exercises/queue)                                                            | Easy       |            |
-|  16 | [Weaving Queue](/1-exercises/weave)                                                    | Easy       |            |
-|  17 | [Stack](/1-exercises/stack)                                                            | Easy       |            |
-|  18 | [Queue Using Stack](/1-exercises/qfroms)                                               | Easy       |            |
-|  19 | [Linked List](/1-exercises/linkedlist)                                                 | Medium     |            |
-|  20 | [Midpoint In Linked List](/1-exercises/midpointInLinkedList)                           | Easy       | 2 pointers |
-|  21 | [Check If Circular Linked List](/1-exercises/circularLinkedList)                       | Easy       | 2 pointers |
-|  22 | [Get Node from N position from Last Node Linked List](/1-exercises/fromLastLinkedList) | Easy       | 2 pointers |
-|  23 | [Building a Tree](/1-exercises/tree)                                                   | Easy       |            |
-|  24 | [Finding the width at each level in a tree](/1-exercises/levelWidth)                   | Medium     |            |
-|  25 | [Binary Search tree](/1-exercises/bst)                                                 | Medium     |            |
-
-</details>
-
-<details>
-  <summary>  Collection of Problems.
+	<summary> Miscellaneous Collection of Problems.
  </summary>
 
 ### Problems
 
-| No. | Title                                         | Difficulty | Topics       |
-| --: | :-------------------------------------------- | :--------- | :----------- |
-|   1 | [Default Arguments](/2-exercises/defaultArgs) | Medium     | closures     |
-|   2 | [8 queens](/2-exercises/8queens)              | Medium     | backtracking |
-|   3 | [stocks profit](/2-exercises/profitsTarget)   | Medium     | hashing      |
+| No. | Title                                                                                    | Difficulty | Topics             |
+| --: | :--------------------------------------------------------------------------------------- | :--------- | :----------------- |
+|   1 | [Reverse String](/js/excercises/reversestring/)                                          | Easy       |                    |
+|   2 | [Palindromes](/js/excercises/palindrome)                                                 | Easy       |                    |
+|   3 | [Reverse Integer](/js/excercises/reverseint)                                             | Easy       |                    |
+|   4 | [Max Chars](/js/excercises/maxchar)                                                      | Easy       |                    |
+|   5 | [Classic FizzBuzz](/js/excercises/fizzbuzz)                                              | Easy       |                    |
+|   6 | [Array Chunk](/js/excercises/chunk)                                                      | Easy       |                    |
+|   7 | [Anagrams](/js/excercises/anagrams)                                                      | Easy       |                    |
+|   8 | [Sentence Capitalization](/js/excercises/capitalize)                                     | Easy       |                    |
+|   9 | [Printing Steps](/js/excercises/steps)                                                   | Easy       |                    |
+|  10 | [Two-Sided Steps- Pyramids](/js/excercises/pyramid)                                      | Medium     |                    |
+|  11 | [Find The Vowels](/js/excercises/vowels)                                                 | Easy       |                    |
+|  12 | [Matrix Spiral](/js/excercises/matrix)                                                   | Medium     |                    |
+|  13 | [Events](/js/excercises/events)                                                          | Easy       |                    |
+|  14 | [Fibonacci Series](/js/excercises/fib)                                                   | Easy       |                    |
+|  15 | [Queue](/js/excercises/queue)                                                            | Easy       |                    |
+|  16 | [Weaving Queue](/js/excercises/weave)                                                    | Easy       |                    |
+|  17 | [Stack](/js/excercises/stack)                                                            | Easy       |                    |
+|  18 | [Queue Using Stack](/js/excercises/qfroms)                                               | Easy       |                    |
+|  19 | [Linked List](/js/excercises/linkedlist)                                                 | Medium     |                    |
+|  20 | [Midpoint In Linked List](/js/excercises/midpointInLinkedList)                           | Easy       | 2 pointers         |
+|  21 | [Check If Circular Linked List](/js/excercises/circularLinkedList)                       | Easy       | 2 pointers         |
+|  22 | [Get Node from N position from Last Node Linked List](/js/excercises/fromLastLinkedList) | Easy       | 2 pointers         |
+|  23 | [Building a Tree](/js/excercises/tree)                                                   | Easy       |                    |
+|  24 | [Finding the width at each level in a tree](/js/excercises/levelWidth)                   | Medium     |                    |
+|  25 | [Binary Search tree](/js/excercises/bst)                                                 | Medium     |                    |
+|  26 | [Default Arguments](/js/excercises/defaultArgs)                                          | Medium     | closures           |
+|  27 | [8 queens](/js/excercises/8queens)                                                       | Medium     | backtracking       |
+|  28 | [stocks profit](/js/excercises/profitsTarget)                                            | Medium     | hashing            |
+|  29 | [efficient teams](/js/excercises/efficientTeams)                                         | Medium     | dp,pattern problem |
 
 </details>

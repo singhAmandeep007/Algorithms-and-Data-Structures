@@ -1,0 +1,33 @@
+{
+  "name": "algorithms-and-data-structures",
+  "version": "1.0.0",
+  "author": "Amandeep Singh",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/amandeepmicro/Algorithms-and-Data-Structures/"
+  },
+  "description": "Algorithms and data structures implemented in javascript, typescript and python with explanations.",
+  "scripts": {
+    "format:write": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,html,md,json}\"  --config ./.prettierrc",
+    "test:coverage": "npm run test -- --coverage",
+    "test": "jest",
+    "test:config": "jest --config ./jest.config.ts",
+    "test:watch": "jest --watchAll",
+    "tsc:check": "tsc --noEmit --skipLibCheck",
+    "tsc:watch": "tsc --noEmit --skipLibCheck --watch"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.3",
+    "@babel/plugin-transform-runtime": "^7.24.3",
+    "@babel/preset-typescript": "^7.24.1",
+    "@testing-library/jest-dom": "^6.4.5",
+    "@types/jest": "^29.5.12",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,16 @@
+# js
+*/node_modules
+*/coverage-reports
+
+# python
+*__pycache__
+*.pytest_cache
+
+# misc
+*/notes
+
+*.DS_Store
+*.jpg 
+*.jpeg 
+*.png
+*.gif
