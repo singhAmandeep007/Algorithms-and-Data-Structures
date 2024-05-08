@@ -1,6 +1,6 @@
-# JavaScript Algorithms and Data Structures
+# Algorithms and Data Structures
 
-This repository contains JavaScript based solution to many of the
+This repository contains solution to many of the
 popular algorithms and data structures related problems.
 
 Each problem has explanations and multiple solutions.
@@ -58,8 +58,8 @@ a set of rules that precisely define a sequence of operations.
 |  24 | [Finding the width at each level in a tree](/js/excercises/levelWidth)                   | Medium     |                    |
 |  25 | [Binary Search tree](/js/excercises/bst)                                                 | Medium     |                    |
 |  26 | [Default Arguments](/js/excercises/defaultArgs)                                          | Medium     | closures           |
-|  27 | [8 queens](/js/excercises/8queens)                                                       | Medium     | backtracking       |
-|  28 | [stocks profit](/js/excercises/profitsTarget)                                            | Medium     | hashing            |
-|  29 | [efficient teams](/js/excercises/efficientTeams)                                         | Medium     | dp,pattern problem |
+|  27 | [8 Queens](/js/excercises/8queens)                                                       | Medium     | backtracking       |
+|  28 | [Stocks Profit](/js/excercises/profitsTarget)                                            | Medium     | hashing            |
+|  29 | [Efficient Teams](/js/excercises/efficientTeams)                                         | Medium     | dp,pattern problem |
 
 </details>
