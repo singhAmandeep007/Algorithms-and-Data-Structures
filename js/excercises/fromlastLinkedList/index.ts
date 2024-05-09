@@ -1,3 +1,5 @@
+import { TLinkedList, TNode } from "./linkedlist";
+
 // --- Directions
 // Given a linked list, return the element n spaces
 // from the last node in the list.  Do not call the 'size'
@@ -11,17 +13,17 @@
 //    list.insertLast('d');
 //    fromLast(list, 2).data // 'b'
 
-function fromLast(list, n) {
+function fromLast1(list: TLinkedList, n: number) {
   let slowNode = list.getFirst();
   let fastNode = list.getFirst();
 
   while (n > 0) {
-    fastNode = fastNode.next;
+    fastNode = (fastNode as TNode).next;
     n--;
   }
-  while (fastNode.next) {
-    slowNode = slowNode.next;
-    fastNode = fastNode.next;
+  while ((fastNode as TNode).next) {
+    slowNode = (slowNode as TNode).next;
+    fastNode = (fastNode as TNode).next;
   }
   return slowNode;
 }
@@ -33,15 +35,15 @@ function fromLast(list, n) {
 	Thus we return the slow node at last
 */
 
-function fromLast1(list, n) {
+function fromLast2(list: TLinkedList, n: number) {
   let slow = list.getFirst();
   let fast = list.getAt(n);
 
-  while (fast.next) {
-    slow = slow.next;
-    fast = fast.next;
+  while ((fast as TNode).next) {
+    slow = (slow as TNode).next;
+    fast = (fast as TNode).next;
   }
   return slow;
 }
 
-module.exports = [fromLast, fromLast1];
+export { fromLast1, fromLast2 };

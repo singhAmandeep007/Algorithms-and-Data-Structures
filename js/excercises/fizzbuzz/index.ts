@@ -13,7 +13,7 @@ of both three and five print “fizzbuzz”.
   buzz */
 
 // 1st solution
-function fizzBuzz1(n) {
+function fizzBuzz1(n: number) {
   for (let i = 1; i <= n; i++) {
     if (i % 15 === 0) {
       console.log("fizzbuzz");
@@ -33,7 +33,7 @@ The order of events in conditional loops does matter. When the loops begins, if 
 */
 
 // 2nd solution
-function fizzBuzz2(n) {
+function fizzBuzz2(n: number) {
   for (let i = 1; i <= n; i++) {
     const fizz = i % 3 === 0 ? "fizz" : "";
     const buzz = i % 5 === 0 ? "buzz" : "";
@@ -44,4 +44,4 @@ function fizzBuzz2(n) {
     Here with each iteration i increments and then fizz and buzz stores string , then we console.log() the result or i itself
 */
 
-module.exports = [fizzBuzz1, fizzBuzz2];
+export { fizzBuzz1, fizzBuzz2 };
