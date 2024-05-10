@@ -26,4 +26,12 @@ describe("fib", () => {
       expect(fib(39)).toEqual(63245986);
     });
   });
+
+  test("calculates slower fib value for 30", () => {
+    expect(() => fib2(30)).not.toBeLessThanExecutionTime(1);
+  });
+
+  test("calculates faster fib value for 30", () => {
+    expect(() => fib6(30)).toBeLessThanExecutionTime(1);
+  });
 });
