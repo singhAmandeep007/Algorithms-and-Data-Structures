@@ -1,7 +1,7 @@
-import { binarySearch1 } from "./index";
+import { binarySearch1, binarySearch2 } from "./index";
 
 describe("binarySearch", () => {
-  [binarySearch1].forEach((binarySearch) => {
+  [binarySearch1, binarySearch2].forEach((binarySearch) => {
     test("should return the index of the target element if found", () => {
       const arr = [1, 3, 5, 7, 9];
       const target = 5;

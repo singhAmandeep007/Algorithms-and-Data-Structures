@@ -10,6 +10,7 @@ function isPrime(n: number): boolean {
   if (n < 2) {
     return false;
   }
+  // integers larger than square root need not to be checked because whenever n=a*b then a or b must be less than or equal to the square root of n.
   for (let i = 2; i <= Math.sqrt(n); i++) {
     if (n % i === 0) {
       return false;

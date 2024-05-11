@@ -15,7 +15,7 @@
  * console.log(index); // Output: 2
  */
 
-// Time complexity: O(log n)
+// O(log n)
 export function binarySearch1(arr: number[], target: number) {
   let start = 0;
   let end = arr.length - 1;
@@ -32,4 +32,24 @@ export function binarySearch1(arr: number[], target: number) {
     }
   }
   return -1;
+}
+
+// O(logn)
+export function binarySearch2(arr: number[], target: number, start?: number, end?: number) {
+  start = start ?? 0;
+  end = end ?? arr.length - 1;
+
+  if (start > end) return -1;
+
+  const middle = Math.floor((start + end) / 2);
+
+  if (arr[middle] === target) return middle;
+
+  if (target < arr[middle]) {
+    return binarySearch2(arr, target, start, middle - 1);
+  }
+
+  if (target > arr[middle]) {
+    return binarySearch2(arr, target, middle + 1, end);
+  }
 }
