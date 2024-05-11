@@ -17,11 +17,6 @@ the data.
 An algorithm is an unambiguous specification of how to solve a class of problems. It is
 a set of rules that precisely define a sequence of operations.
 
-## Testing
-
-- Testing is done using Jest.
-- `npm test` to run the tests.
-
 ## Solutions
 
 <details>
@@ -63,3 +58,20 @@ a set of rules that precisely define a sequence of operations.
 |  29 | [Efficient Teams](/js/excercises/efficientTeams)                                         | Medium     | dp,pattern problem |
 
 </details>
+
+## Setup to run tests
+
+### js
+
+1. Install Node.js > 21.7.1
+2. `cd js`
+3. `npm install`
+4. `npm test`
+
+### python
+
+1. Install Conda > 24.1.2
+2. `cd python`
+3. `conda env create --name .venv --file environment.yml`
+4. `conda activate .venv`
+5. `pytest`
