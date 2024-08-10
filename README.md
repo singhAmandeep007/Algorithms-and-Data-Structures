@@ -63,15 +63,22 @@ a set of rules that precisely define a sequence of operations.
 
 ### js
 
-1. Install Node.js > 21.7.1
-2. `cd js`
-3. `npm install`
-4. `npm test`
+1. Setup the environment
+   1. Install Node.js > 21.7.1
+   2. `cd js`
+   3. `npm install`
+2. Run tests
+   1. `npm test`
 
 ### python
 
-1. Install Conda > 24.1.2
-2. `cd python`
-3. `conda env create --name .venv --file environment.yml`
-4. `conda activate .venv`
-5. `pytest`
+1. Setup the environment and run tests
+   1. Install Conda > 24.1.2
+   2. `cd python`
+   3. `conda env create -f environment.yml`
+   4. `conda activate algoriths-and-data-structures`
+   5. `pytest -vv -s`
+2. Run tests
+   1. `pytest -vv -s --html=report.html --self-contained-html`
+3. Update environment.yml
+   1. `conda env export > environment.yml`

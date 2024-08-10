@@ -5,6 +5,7 @@
 # python
 *__pycache__
 *.pytest_cache
+report.html
 
 # misc
 */notes
