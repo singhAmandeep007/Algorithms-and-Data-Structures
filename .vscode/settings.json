@@ -1,5 +1,18 @@
 {
+  "go.testExplorer.showOutput": false,
+  "[go]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go"
+  },
+
   "python.testing.unittestArgs": ["-v", "-s", "./python", "-p", "test_*.py"],
   "python.testing.pytestEnabled": false,
-  "python.testing.unittestEnabled": true
+  "python.testing.unittestEnabled": true,
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
 }
