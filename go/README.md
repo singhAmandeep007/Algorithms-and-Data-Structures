@@ -1,3 +1,8 @@
+# Setup environment to run tests
+
+1. Install Go > 1.22.1
+2. `cd go`
+
 # Run all tests
 
 ```bash
