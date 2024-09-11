@@ -3,7 +3,7 @@
  * The efficiency of a team is defined as the product of the skill levels of its 2 members, ie for the skills [1,3] the efficiency of the team is 1* 3 = 3. Find the total sum of efficiencies of all teams that can be formed satisfying the criterion above. if there is no way to team them to satisfy condition return -1.
  *  */
 
-function createEfficientTeams(skills) {
+function createEfficientTeams(skills: number[]) {
   let n = skills.length;
   if (n < 2) return -1;
   if (n % 2 !== 0) return -1;
@@ -34,8 +34,9 @@ function createEfficientTeams(skills) {
 
     if (indexOfRequiredSkill !== -1 && indexOfRequiredSkill !== i) {
       teams.push(new Array(skills[i], skills[indexOfRequiredSkill]));
-
+      // @ts-ignore
       skills[indexOfRequiredSkill] = null;
+      // @ts-ignore
       skills[i] = null;
     }
   }
