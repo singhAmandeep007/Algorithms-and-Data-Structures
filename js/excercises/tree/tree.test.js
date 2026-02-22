@@ -64,4 +64,12 @@ describe("Tree", () => {
 
     expect(letters).toEqual(["a", "b", "c", "d"]);
   });
+
+  test("Can find a node with BF", () => {
+    const t = new Tree();
+    t.root = new Node("a");
+    t.root.add("b");
+    t.root.add("c");
+    t.root.children[0].add("d");
+  });
 });
